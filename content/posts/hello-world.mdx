@@ -1,0 +1,53 @@
+---
+title: "첫 번째 블로그 포스트"
+description: "블로그를 시작하며 기술 스택과 구축 과정을 공유합니다."
+date: "2026-02-08"
+tags: ["Next.js", "React", "회고"]
+published: true
+---
+
+## 블로그를 시작합니다
+
+이 블로그는 Next.js 16과 MDX로 만들었습니다. 마크다운으로 글을 작성하면서도 React 컴포넌트를 자유롭게 삽입할 수 있는 환경을 구축했습니다.
+
+### 기술 스택
+
+- **Next.js 16** — App Router, React Server Components
+- **MDX** — 마크다운 + React 컴포넌트
+- **Tailwind CSS v4** — 유틸리티 퍼스트 스타일링
+- **Shiki** — 빌드 타임 코드 하이라이팅
+
+### 코드 예시
+
+TypeScript로 간단한 함수를 작성해 보겠습니다.
+
+```typescript
+export function greet(name: string): string {
+  return `안녕하세요, ${name}님!`;
+}
+
+const message = greet("지헌");
+console.log(message); // 안녕하세요, 지헌님!
+```
+
+Python 예시도 하나 더:
+
+```python
+def fibonacci(n: int) -> list[int]:
+    fib = [0, 1]
+    for i in range(2, n):
+        fib.append(fib[i - 1] + fib[i - 2])
+    return fib[:n]
+
+print(fibonacci(10))
+```
+
+### 앞으로의 계획
+
+이 블로그에서는 개발하면서 배운 것들을 기록할 예정입니다.
+
+- 프로젝트 트러블슈팅 경험
+- 기술 설계 결정 과정
+- 유용한 도구와 라이브러리 소개
+
+다음 글에서 더 자세한 내용을 다루겠습니다.
